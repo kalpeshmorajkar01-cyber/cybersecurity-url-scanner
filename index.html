@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberGuard URL Scanner</title>
+
+```
+<link rel="stylesheet" href="style.css">
+```
+
+</head>
+
+<body>
+
+```
+<div class="container">
+
+    <h1>🛡 CyberGuard URL Scanner</h1>
+
+    <div class="card">
+
+        <input type="text" id="name" placeholder="Enter Name">
+
+        <input type="email" id="email" placeholder="Enter Email">
+
+        <input type="text" id="url" placeholder="Enter URL">
+
+        <button id="scanBtn">
+            Scan URL
+        </button>
+
+        <div id="result"></div>
+
+    </div>
+
+    <div class="dashboard">
+
+        <div class="box">
+            <h3>Total Scans</h3>
+            <h2 id="totalScans">0</h2>
+        </div>
+
+    </div>
+
+    <h2>Scan History</h2>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>URL</th>
+                <th>Status</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+
+        <tbody id="historyBody"></tbody>
+
+    </table>
+
+</div>
+
+<script src="script.js"></script>
+```
+
+</body>
+
+</html>
